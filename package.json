@@ -1,0 +1,35 @@
+{
+  "name": "big-server-lmfao",
+  "version": "0.0.1",
+  "description": "A Demon List HQ bot to download and extract necessary information from raw footage files",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon src/app.js",
+    "removeGuild": "node src/tools/removeGuildSlashCommands.js",
+    "removeGlobal": "node src/tools/removeGlobalSlashCommands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkaneOnline/big-server-lmfao.git"
+  },
+  "author": "Arkane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArkaneOnline/big-server-lmfao/issues"
+  },
+  "homepage": "https://github.com/ArkaneOnline/big-server-lmfao#readme",
+  "dependencies": {
+    "@discordjs/rest": "^2.0.1",
+    "@tsmx/human-readable": "^2.0.1",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.37.60",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "type": "commonjs"
+}
